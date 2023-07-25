@@ -36,14 +36,18 @@ int main()
 
 // output
 //  Enter the number of pages:
-// 3
+// 7
 
 //  Enter the page number:
-// 1 0 3
+// 1 3 0 3 5 6 3
 
 // Enter the number of frames:
-// 5
+// 3
 //         input   page frames
-// 1               1       -1      -1      -1      -1
-// 0               1       0       -1      -1      -1
-// 3               1       0       3       -1      -1
+// 1               1       -1      -1
+// 3               1       3       -1
+// 0               1       3       0
+// 3
+// 5               5       3       0
+// 6               5       6       0
+// 3               5       6       3            
