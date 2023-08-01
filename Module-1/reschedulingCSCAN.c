@@ -71,44 +71,25 @@ int main(){
   return 0;
 }
 
-/*Output:
-Enter the number of requestes: 
-7
-Enter request Sequence
-82
-170
-43
-140
-24
-16
-190
-Enter intial head position
-50
-Enter total disk size
-7
-Enter the head movement direction for high 1 and low 0
-1
-Sequence of request access: 
-82140170190162443
-Total head movement is 373@Abhijna8 ➜ /workspaces/OS-lab (main) $ gcc cscan.c
-@Abhijna8 ➜ /workspaces/OS-lab (main) $ ./a.out
-Enter the number of requestes: 
-7
-Enter request Sequence
-82
-170
-43
-140
-24
-16
-190
-Enter intial head position
-50
-Enter total disk size
-200
-Enter the head movement direction for high 1 and low 0
-1
-Sequence of request access: 
-82140170190162443
-Total head movement is 391
-*/
+// output
+
+
+// Enter the number of requestes: 
+// 7
+// Enter request Sequence
+// 82
+// 170
+// 43
+// 140
+// 24
+// 16
+// 190
+// Enter intial head position
+// 50
+// Enter total disk size
+// 200
+// Enter the head movement direction for high 1 and low 0
+// 1
+// Sequence of request access: 
+// 82140170190162443
+// Total head movement is 391
