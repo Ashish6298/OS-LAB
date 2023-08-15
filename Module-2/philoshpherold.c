@@ -11,23 +11,6 @@ pthread_t philosopher[NUM_PHILOSOPHERS];
 pthread_mutex_t chopstick[NUM_CHOPSTICKS];
 
 int main() {
-    /*ouput
-    Philosopher  1 is thinking 
-    Philosopher  1 is eating 
-    Philosopher  2 is thinking 
-    Philosopher  3 is thinking 
-    Philosopher  5 is thinking 
-    Philosopher  4 is thinking 
-    Philosopher  4 is eating 
-    Philosopher  1 Finished eating 
-    Philosopher  5 is eating 
-    Philosopher  4 Finished eating 
-    Philosopher  3 is eating 
-    Philosopher  5 Finished eating 
-    Philosopher  3 Finished eating 
-    Philosopher  2 is eating 
-    Philosopher  2 Finished eating
-    */
     int i, status_message;
     void *msg;
     for (i = 1; i <= NUM_CHOPSTICKS; i++) {
